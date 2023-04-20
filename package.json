@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npm run clean && npx tsc-esm && npm run copy",
     "clean": "rimraf dist",
-    "copy": "cp -r public/ dist"
+    "copy": "cp -r public/ dist",
+    "deploy": "sh deploy.sh"
   },
   "author": "",
   "license": "ISC",
